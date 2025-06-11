@@ -211,7 +211,7 @@ img {
 .home__img {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 2.0rem;
   width: 270px;
 }
 .home__blob {
@@ -363,6 +363,12 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
 }
+.home__social-icon i {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 var(--mb-2);
+}
+
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
